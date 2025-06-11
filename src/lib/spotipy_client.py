@@ -12,7 +12,7 @@ class SpotipyClient():
         self.redirect_uri = os.getenv("REDIRECT_URI")
         self.scope = os.getenv("SCOPE")
         self.sp = ""
-        
+
 
     def authorize_user(self):
         """Authorize user and return a Spotify client."""
@@ -30,7 +30,7 @@ class SpotipyClient():
         try:
             user = sp.current_user()
             if user:
-                
+
                 return user, 200
             else:
                 return "User profile not found", 404
@@ -50,20 +50,20 @@ class SpotipyClient():
                 song = item['track']
                 artist_str = ', '.join([artist['name'] for artist in song['artists']])
                 img_url = song['album']['images'][0]['url'] if song['album']['images'] else ""
-                date_added = item['added_at']  
+                date_added = item['added_at']
                 tracks.append({
                     "title": song['name'],
                     "artist": artist_str,
                     "image_url": img_url,
-                    "date_added": date_added  
+                    "date_added": date_added
                 })
-            
-            results = self.sp.next(results)  
-        
+
+            results = self.sp.next(results)
+
         return tracks, 200
 
 
-    
+
     def get_all_playlists(self):
         """Returns list of playlist names and ids"""
         try:
@@ -81,7 +81,7 @@ class SpotipyClient():
         except Exception as exc:
             print(exc)
             return [], 500
-            
+
 
     def get_playlist_id(self, name):
         """Fetch playlist id via name"""
@@ -91,8 +91,14 @@ class SpotipyClient():
                 return playlist['id']
 
 
+    def search_album(self, album):
+        results = self.sp.search(q=album, type="album", limit=10)
+        print(results)
+        return results
+
+
 if __name__ == "__main__":
     sp = SpotipyClient()
     sp.authorize_user()
-    r = sp.get_all_songs('5RayM1YQFObaEY3HQeM0rK')
+    r = sp.search_album('Dark Side of the Moon')
     print(r)

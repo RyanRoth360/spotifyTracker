@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from lib.spotipy_client import SpotipyClient
-from flask_cors import CORS  
+from flask_cors import CORS
 
 
 app = Flask(__name__)
@@ -28,7 +28,7 @@ def get_all_songs():
 
         if not playlist_id:
             return jsonify({"error": "Playlist ID is required"}), 400  # Return error if ID is missing
-        
+
         result, status = CLIENT.get_all_songs(playlist_id)
         return jsonify(result), status
     except Exception as e:
@@ -37,4 +37,4 @@ def get_all_songs():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)  
+    app.run(debug=True)
