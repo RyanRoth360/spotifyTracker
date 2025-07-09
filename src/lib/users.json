@@ -1,0 +1,37 @@
+{
+    "name": "Ryan Roth",
+    "username": "ryanroth360",
+    "spotifyLink": "https://open.spotify.com/user/ryanroth360",
+    "bio": "This is a bio!",
+    "friends": [
+        "user456",
+        "music_lover_88"
+    ],
+    
+    "ranked": [
+        {
+            "id": "686b0e1ce3b4c90166b35612",
+            "rank": 5,
+            "description": "An all-time favorite, amazing from start to finish.",
+            "favorite": true
+        },
+        {
+            "id": "686b0e1ce3b4c90166b35613",
+            "rank": 4,
+            "description": "Great vibe, a few skips though.",
+            "favorite": true
+        },
+        {
+            "id": "686b0e1ce3b4c90166b35614",
+            "rank": 3,
+            "description": "Pretty good but not super memorable.",
+            "favorite": false
+        }
+    ],
+    
+    "bookmarked": [
+        "686b0e1ce3b4c90166b35615",
+        "686b0e1ce3b4c90166b35616",
+        "686b0e1ce3b4c90166b35617"
+    ]
+}

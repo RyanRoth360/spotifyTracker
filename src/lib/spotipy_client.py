@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-
+import json
 
 class SpotipyClient():
     def __init__(self):
@@ -95,10 +95,33 @@ class SpotipyClient():
         results = self.sp.search(q=album, type="album", limit=10)
         print(results)
         return results
+    
+    def get_top_albums(self, count=15):
+        results = self.sp.new_releases(limit=count)
+        albums = results["albums"]["items"]
+        for album in albums:
+            album["tracks"] = self.get_tracklist(album["id"])
+            
+        with open("albums.json", "w", encoding="utf-8") as f:
+            json.dump(albums, f, ensure_ascii=False, indent=2)
+        return albums
+    
+    def get_tracklist(self, album_id):
+        tracks_data = self.sp.album_tracks(album_id)
+        tracklist = [
+            {
+                "name": track.get("name"),
+                "id": track.get("id"),
+                "duration_ms": track.get("duration_ms"),
+                "track_number": track.get("track_number")
+            }
+            for track in tracks_data.get("items", [])
+        ]
+        return tracklist
+
 
 
 if __name__ == "__main__":
     sp = SpotipyClient()
     sp.authorize_user()
-    r = sp.search_album('Dark Side of the Moon')
-    print(r)
+    r = sp.get_top_albums()

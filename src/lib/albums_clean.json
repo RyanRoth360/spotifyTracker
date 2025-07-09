@@ -1,0 +1,704 @@
+[
+  {
+    "name": "THE TORTURED POETS DEPARTMENT",
+    "id": "1Mo4aZ8pdj6L1jx8zSwJnt",
+    "release_date": "2024-04-18",
+    "artist": "Taylor Swift",
+    "image": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
+    "external_url": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt",
+    "tracks": [
+      {
+        "name": "Fortnight (feat. Post Malone)",
+        "id": "2OzhQlSqBEmt7hmkYxfT6m",
+        "duration_ms": 228965,
+        "track_number": 1
+      },
+      {
+        "name": "The Tortured Poets Department",
+        "id": "3NMrVbIVWT3fPXBj0rNDKG",
+        "duration_ms": 293048,
+        "track_number": 2
+      },
+      {
+        "name": "My Boy Only Breaks His Favorite Toys",
+        "id": "2XXwLdtuAcE0HSCu61ijAb",
+        "duration_ms": 203801,
+        "track_number": 3
+      },
+      {
+        "name": "Down Bad",
+        "id": "2F3N9tdombb64aW6VtZOdo",
+        "duration_ms": 261228,
+        "track_number": 4
+      },
+      {
+        "name": "So Long, London",
+        "id": "3Vevii7qKqrmW8CcyzBHDl",
+        "duration_ms": 262974,
+        "track_number": 5
+      },
+      {
+        "name": "But Daddy I Love Him",
+        "id": "5og4Qzt92jJzVDkOtSEilb",
+        "duration_ms": 340428,
+        "track_number": 6
+      },
+      {
+        "name": "Fresh Out The Slammer",
+        "id": "3fO566xJgwxIa3qGCGBvIC",
+        "duration_ms": 210789,
+        "track_number": 7
+      },
+      {
+        "name": "Florida!!! (feat. Florence + The Machine)",
+        "id": "3ZVFcD8Wlw9T9klGqmJf9F",
+        "duration_ms": 215463,
+        "track_number": 8
+      },
+      {
+        "name": "Guilty as Sin?",
+        "id": "0W0iAC1VGlB82PI6elxFYf",
+        "duration_ms": 254365,
+        "track_number": 9
+      },
+      {
+        "name": "Who’s Afraid of Little Old Me?",
+        "id": "36t6frENUtCYKuZus6aYDO",
+        "duration_ms": 334084,
+        "track_number": 10
+      },
+      {
+        "name": "I Can Fix Him (No Really I Can)",
+        "id": "2h3MDMf8sd9s4XIzpTBIjX",
+        "duration_ms": 156297,
+        "track_number": 11
+      },
+      {
+        "name": "loml",
+        "id": "6RSG1dKPV5gEvILwJb4QtS",
+        "duration_ms": 277156,
+        "track_number": 12
+      },
+      {
+        "name": "I Can Do It With a Broken Heart",
+        "id": "4q5YezDOIPcoLr8R81x9qy",
+        "duration_ms": 218004,
+        "track_number": 13
+      },
+      {
+        "name": "The Smallest Man Who Ever Lived",
+        "id": "2v1ivOOsgn64g5OywuH55L",
+        "duration_ms": 245541,
+        "track_number": 14
+      },
+      {
+        "name": "The Alchemy",
+        "id": "1dhMTsEZz6ZEquGvmzVoHn",
+        "duration_ms": 196900,
+        "track_number": 15
+      },
+      {
+        "name": "Clara Bow",
+        "id": "1UlhrRvYzbHEyugEDspXUB",
+        "duration_ms": 216662,
+        "track_number": 16
+      }
+    ]
+  },
+  {
+    "name": "Dark Matter",
+    "id": "7MNrrItJpom6uMJWdT0XD8",
+    "release_date": "2024-04-19",
+    "artist": "Pearl Jam",
+    "image": "https://i.scdn.co/image/ab67616d00001e026fcdcbbd9cae9001ca5b20d5",
+    "external_url": "https://open.spotify.com/album/7MNrrItJpom6uMJWdT0XD8",
+    "tracks": [
+      {
+        "name": "Scared Of Fear",
+        "id": "5zAga8KU22nzojKc6ZBWOV",
+        "duration_ms": 264188,
+        "track_number": 1
+      },
+      {
+        "name": "React, Respond",
+        "id": "33rc0hKdMyHf6lz7WMTRdh",
+        "duration_ms": 210832,
+        "track_number": 2
+      },
+      {
+        "name": "Wreckage",
+        "id": "083LM23MmqS8HTTYZQrYxG",
+        "duration_ms": 300487,
+        "track_number": 3
+      },
+      {
+        "name": "Dark Matter",
+        "id": "0S4VR8n0KBkE6DxrjArswJ",
+        "duration_ms": 211720,
+        "track_number": 4
+      },
+      {
+        "name": "Won't Tell",
+        "id": "4Lv7QegfYqPHTqBTH1WJ83",
+        "duration_ms": 208187,
+        "track_number": 5
+      },
+      {
+        "name": "Upper Hand",
+        "id": "15tI78zBMKToM9A4Bq0TsF",
+        "duration_ms": 357231,
+        "track_number": 6
+      },
+      {
+        "name": "Waiting For Stevie",
+        "id": "7LMXRhf27EwcBQo2oLkcBa",
+        "duration_ms": 341166,
+        "track_number": 7
+      },
+      {
+        "name": "Running",
+        "id": "6EnWm7fQBUku6EuNc3xPmi",
+        "duration_ms": 139432,
+        "track_number": 8
+      },
+      {
+        "name": "Something Special",
+        "id": "06vyBAqzokvXjw3b7FPcZi",
+        "duration_ms": 246877,
+        "track_number": 9
+      },
+      {
+        "name": "Got To Give",
+        "id": "0pbo6zLqhafAy4r1T4F4jD",
+        "duration_ms": 277405,
+        "track_number": 10
+      },
+      {
+        "name": "Setting Sun",
+        "id": "3z1h5TgBojJ9ezQiD6IxVv",
+        "duration_ms": 343646,
+        "track_number": 11
+      }
+    ]
+  },
+  {
+    "name": "HERicane",
+    "id": "4YQ8O3PQb7cZnnLeqNPaa1",
+    "release_date": "2024-04-19",
+    "artist": "Lucky Daye",
+    "image": "https://i.scdn.co/image/ab67616d00001e028a9dc89bd612b7f4670e2390",
+    "external_url": "https://open.spotify.com/album/4YQ8O3PQb7cZnnLeqNPaa1",
+    "tracks": [
+      {
+        "name": "HERicane",
+        "id": "64fITmtln0OJqcxPf09vnY",
+        "duration_ms": 227368,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "Teka (with Peso Pluma)",
+    "id": "4MGpOqMU3FlZ7li35laoBu",
+    "release_date": "2024-04-17",
+    "artist": "DJ Snake",
+    "image": "https://i.scdn.co/image/ab67616d00001e0224861100b34630be0af122ce",
+    "external_url": "https://open.spotify.com/album/4MGpOqMU3FlZ7li35laoBu",
+    "tracks": [
+      {
+        "name": "Teka (with Peso Pluma)",
+        "id": "555maXFEF9m0lE4UGRzCHk",
+        "duration_ms": 163809,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "REBEL",
+    "id": "0sJhrYC1988r2NNxsmzk3V",
+    "release_date": "2024-04-19",
+    "artist": "Anne Wilson",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f7ee7120f7bf51045dff090d",
+    "external_url": "https://open.spotify.com/album/0sJhrYC1988r2NNxsmzk3V",
+    "tracks": [
+      {
+        "name": "REBEL",
+        "id": "67NdAOAn0EzvyrMYduzzZm",
+        "duration_ms": 194333,
+        "track_number": 1
+      },
+      {
+        "name": "Rain In The Rearview",
+        "id": "3Ajq24X7cLSWXIcyWYBDim",
+        "duration_ms": 181533,
+        "track_number": 2
+      },
+      {
+        "name": "Strong",
+        "id": "6ZCYKcXLleAYDNpozgPxdL",
+        "duration_ms": 204800,
+        "track_number": 3
+      },
+      {
+        "name": "God & Country",
+        "id": "6IFlMgM8RvY4wA7dyxywKA",
+        "duration_ms": 199466,
+        "track_number": 4
+      },
+      {
+        "name": "Praying Woman",
+        "id": "0c0yiRhp1dQhjrC2kXOJ10",
+        "duration_ms": 231866,
+        "track_number": 5
+      },
+      {
+        "name": "Songs About Whiskey",
+        "id": "7crxg59CxoOqSxhHC7I6LY",
+        "duration_ms": 173000,
+        "track_number": 6
+      },
+      {
+        "name": "Sinner's Prayer",
+        "id": "4AY72y0eeQIDUIn3NNDAuh",
+        "duration_ms": 196960,
+        "track_number": 7
+      },
+      {
+        "name": "The Cross",
+        "id": "3BYjy9SgiD9BbBPdhOfRg5",
+        "duration_ms": 221186,
+        "track_number": 8
+      },
+      {
+        "name": "My Father's Daughter",
+        "id": "7hSfThzYLHwS0mAFmWPw3n",
+        "duration_ms": 182613,
+        "track_number": 9
+      },
+      {
+        "name": "Red Flag",
+        "id": "7zgXDc6yGVpnLwHQRGSskk",
+        "duration_ms": 192506,
+        "track_number": 10
+      },
+      {
+        "name": "Country Gold",
+        "id": "0UnMW3SztHeKFHTEIFyIVh",
+        "duration_ms": 196733,
+        "track_number": 11
+      },
+      {
+        "name": "Southern Gospel",
+        "id": "1g1JH1KDVqzaC9tCdfnlvm",
+        "duration_ms": 166946,
+        "track_number": 12
+      },
+      {
+        "name": "Dirt Roads In Heaven",
+        "id": "0nFT0l9OpPJxAfy3YKG1Oo",
+        "duration_ms": 202186,
+        "track_number": 13
+      },
+      {
+        "name": "3:16",
+        "id": "2NPwfB9lttw5healP7S6T5",
+        "duration_ms": 186706,
+        "track_number": 14
+      },
+      {
+        "name": "Milestones",
+        "id": "5YOTwHUrcrNu3LNqkgdt4p",
+        "duration_ms": 207226,
+        "track_number": 15
+      },
+      {
+        "name": "Out Of The Bluegrass",
+        "id": "72sgAFqAcbQADqotfVfK3x",
+        "duration_ms": 287640,
+        "track_number": 16
+      }
+    ]
+  },
+  {
+    "name": "Define My Name",
+    "id": "5nabWI5Yf9uYtDS79CXVHu",
+    "release_date": "2024-04-19",
+    "artist": "Nas",
+    "image": "https://i.scdn.co/image/ab67616d00001e02a56f5696231c1ad328fc9445",
+    "external_url": "https://open.spotify.com/album/5nabWI5Yf9uYtDS79CXVHu",
+    "tracks": [
+      {
+        "name": "Define My Name",
+        "id": "4LDx21eeTurv7b1slX4rFl",
+        "duration_ms": 190693,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "Wasteland, Baby! (Special Edition)",
+    "id": "7hf5xjz74wwX1wS76DU2Ik",
+    "release_date": "2019-03-01",
+    "artist": "Hozier",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f0722706190993eadd8ad6aa",
+    "external_url": "https://open.spotify.com/album/7hf5xjz74wwX1wS76DU2Ik",
+    "tracks": [
+      {
+        "name": "Nina Cried Power",
+        "id": "6vvXRmPE6ToXWzY3wTLhiZ",
+        "duration_ms": 225306,
+        "track_number": 1
+      },
+      {
+        "name": "Almost (Sweet Music)",
+        "id": "6RFNPclRr5zwILeK20ji2h",
+        "duration_ms": 217480,
+        "track_number": 2
+      },
+      {
+        "name": "Movement",
+        "id": "0QvayHa5T6IBfET8TrTbcA",
+        "duration_ms": 237800,
+        "track_number": 3
+      },
+      {
+        "name": "No Plan",
+        "id": "4JJBq8Qyblnmbcvz1Qu93A",
+        "duration_ms": 331013,
+        "track_number": 4
+      },
+      {
+        "name": "Nobody",
+        "id": "384nF43PWQ1QAEu0ji0rX6",
+        "duration_ms": 210573,
+        "track_number": 5
+      },
+      {
+        "name": "To Noise Making (Sing)",
+        "id": "36H2Mq21wMPq8UU4nnV8st",
+        "duration_ms": 206920,
+        "track_number": 6
+      },
+      {
+        "name": "As It Was",
+        "id": "3Dn0jZVehgKZwJDqOfbNCt",
+        "duration_ms": 207653,
+        "track_number": 7
+      },
+      {
+        "name": "Shrike",
+        "id": "2LeWLDo8r64B4kFmVjpmR7",
+        "duration_ms": 298880,
+        "track_number": 8
+      },
+      {
+        "name": "Talk",
+        "id": "2zGlEuv6cHIp7MJbh4xWXd",
+        "duration_ms": 206546,
+        "track_number": 9
+      },
+      {
+        "name": "Be",
+        "id": "2Wsx6PgkZaakFrHHZrr7S1",
+        "duration_ms": 289066,
+        "track_number": 10
+      },
+      {
+        "name": "Dinner & Diatribes",
+        "id": "3Sg1mt8cFYi2eAvnEWeana",
+        "duration_ms": 224146,
+        "track_number": 11
+      },
+      {
+        "name": "Would That I",
+        "id": "2foGe009k4GhprPOlIDL74",
+        "duration_ms": 268293,
+        "track_number": 12
+      },
+      {
+        "name": "Sunlight",
+        "id": "5zHzDCI5LsyixtBLsBsF2e",
+        "duration_ms": 257346,
+        "track_number": 13
+      },
+      {
+        "name": "Wasteland, Baby!",
+        "id": "1Wo2gUZ0MpVhNSThxqtIjb",
+        "duration_ms": 266466,
+        "track_number": 14
+      },
+      {
+        "name": "Shrike - Live At Windmill Lane Studios",
+        "id": "32rWHMqYa2skl3QNMBnGka",
+        "duration_ms": 312466,
+        "track_number": 15
+      },
+      {
+        "name": "Moment's Silence (Common Tongue)",
+        "id": "1O6gY8GjEX27VeMCVuNULB",
+        "duration_ms": 254840,
+        "track_number": 16
+      },
+      {
+        "name": "Why Would You Be Loved",
+        "id": "4oHFmfo0VVpcIA9AewhOZB",
+        "duration_ms": 248333,
+        "track_number": 17
+      },
+      {
+        "name": "Be - Acoustic",
+        "id": "7LhBiqLbHd4BichEUoo6rJ",
+        "duration_ms": 235346,
+        "track_number": 18
+      },
+      {
+        "name": "NFWMB",
+        "id": "4MTZvg0M1NlKzcDmoceZeV",
+        "duration_ms": 262105,
+        "track_number": 19
+      }
+    ]
+  },
+  {
+    "name": "Baddy On The Floor",
+    "id": "2fDJNwprKYSK4ovmRzcoe4",
+    "release_date": "2024-04-15",
+    "artist": "Jamie xx",
+    "image": "https://i.scdn.co/image/ab67616d00001e02ed5478e72ea12a7cc9bdaeac",
+    "external_url": "https://open.spotify.com/album/2fDJNwprKYSK4ovmRzcoe4",
+    "tracks": [
+      {
+        "name": "Baddy On The Floor",
+        "id": "3CqaTHbiU2nBy3Ar9RnDHN",
+        "duration_ms": 222315,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "For Life (feat. Nile Rodgers)",
+    "id": "2Cqf3izEp75CqTKgul5Mi1",
+    "release_date": "2024-04-19",
+    "artist": "Kygo",
+    "image": "https://i.scdn.co/image/ab67616d00001e027198e498826796ff81f560a7",
+    "external_url": "https://open.spotify.com/album/2Cqf3izEp75CqTKgul5Mi1",
+    "tracks": [
+      {
+        "name": "For Life (feat. Nile Rodgers)",
+        "id": "4QfikoJtCEiOj7G5R9m3sP",
+        "duration_ms": 175803,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "Espectacular",
+    "id": "2HLdCDKtyV4VxHLYk5xvAS",
+    "release_date": "2024-04-18",
+    "artist": "Sky Rompiendo",
+    "image": "https://i.scdn.co/image/ab67616d00001e020acf414348b3ca9a6f538690",
+    "external_url": "https://open.spotify.com/album/2HLdCDKtyV4VxHLYk5xvAS",
+    "tracks": [
+      {
+        "name": "Espectacular",
+        "id": "4HnuPc5Cng3tbwunyqSMNi",
+        "duration_ms": 185739,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "Half Life",
+    "id": "51JYG8XPpVVVA7uQTnm4tI",
+    "release_date": "2024-04-19",
+    "artist": "Wyatt Flores",
+    "image": "https://i.scdn.co/image/ab67616d00001e020a0de163efc03ffc3bc597af",
+    "external_url": "https://open.spotify.com/album/51JYG8XPpVVVA7uQTnm4tI",
+    "tracks": [
+      {
+        "name": "Running Out Of Time",
+        "id": "4qIdRNZsrZ0HHPq73AWGQW",
+        "duration_ms": 210639,
+        "track_number": 1
+      },
+      {
+        "name": "Half Life",
+        "id": "0iBQXtUw2YKVaVi7QeK8mp",
+        "duration_ms": 193667,
+        "track_number": 2
+      },
+      {
+        "name": "Wish I Could Stay",
+        "id": "2VPcLytbWoXNQaJrEwiQmM",
+        "duration_ms": 221853,
+        "track_number": 3
+      },
+      {
+        "name": "Milwaukee",
+        "id": "5x1KVuScXh34bgvaywZOdO",
+        "duration_ms": 179829,
+        "track_number": 4
+      },
+      {
+        "name": "If I Don’t See You Again",
+        "id": "03hQ80zj3NLDnjYfcHNF2T",
+        "duration_ms": 228029,
+        "track_number": 5
+      },
+      {
+        "name": "I Believe In God",
+        "id": "26h0fGIEKwcN3w5gY7tRBZ",
+        "duration_ms": 165958,
+        "track_number": 6
+      },
+      {
+        "name": "How To Save A Life",
+        "id": "77OtRW5pVWMVUelKni2Z2O",
+        "duration_ms": 205194,
+        "track_number": 7
+      },
+      {
+        "name": "Devil",
+        "id": "2eXarvTxEVz5C8LXRo9Oxa",
+        "duration_ms": 156290,
+        "track_number": 8
+      }
+    ]
+  },
+  {
+    "name": "Starburster",
+    "id": "1KkyOpscmbPAQzLNZDyI6o",
+    "release_date": "2024-04-17",
+    "artist": "Fontaines D.C.",
+    "image": "https://i.scdn.co/image/ab67616d00001e020aa950a429f1a159fa211a75",
+    "external_url": "https://open.spotify.com/album/1KkyOpscmbPAQzLNZDyI6o",
+    "tracks": [
+      {
+        "name": "Starburster",
+        "id": "1cg4xD453Wuol9fNsRDbsV",
+        "duration_ms": 221450,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "WAHALA (FEAT. OLAMIDE)",
+    "id": "59BxJKNg7wRYlJxAahb3YW",
+    "release_date": "2024-04-19",
+    "artist": "CKay",
+    "image": "https://i.scdn.co/image/ab67616d00001e02133915918d2fee0b960a067d",
+    "external_url": "https://open.spotify.com/album/59BxJKNg7wRYlJxAahb3YW",
+    "tracks": [
+      {
+        "name": "WAHALA (feat. Olamide)",
+        "id": "6ZBXya9ewPZa6zXDRfPhog",
+        "duration_ms": 170721,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "Suffer In Silence",
+    "id": "1qJghQpnRM2sRbhX3lWXHz",
+    "release_date": "2024-04-19",
+    "artist": "Tee Grizzley",
+    "image": "https://i.scdn.co/image/ab67616d00001e020bdb66dadbc9d4721bf0a30f",
+    "external_url": "https://open.spotify.com/album/1qJghQpnRM2sRbhX3lWXHz",
+    "tracks": [
+      {
+        "name": "Suffer In Silence",
+        "id": "0gkV6O56gE1siaDAJenaLZ",
+        "duration_ms": 157611,
+        "track_number": 1
+      }
+    ]
+  },
+  {
+    "name": "Damascus",
+    "id": "0VZCWi3C9oARyCsoZKCMhg",
+    "release_date": "2024-04-19",
+    "artist": "Elvie Shane",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f0b8b953717d68294b1cdc60",
+    "external_url": "https://open.spotify.com/album/0VZCWi3C9oARyCsoZKCMhg",
+    "tracks": [
+      {
+        "name": "Outside Dog",
+        "id": "2iXOMubID0GRjNzuTB8q0C",
+        "duration_ms": 229550,
+        "track_number": 1
+      },
+      {
+        "name": "What Do I Know",
+        "id": "3BbXIP4Coe1mpD7XT9VdqJ",
+        "duration_ms": 232663,
+        "track_number": 2
+      },
+      {
+        "name": "Jonesin' (feat. Jenna McClelland)",
+        "id": "0sy28m3m4MiK34l4Juux68",
+        "duration_ms": 190637,
+        "track_number": 3
+      },
+      {
+        "name": "Baptized",
+        "id": "4BF4syTZZvgAeNmdOepcP4",
+        "duration_ms": 196363,
+        "track_number": 4
+      },
+      {
+        "name": "Forgotten Man",
+        "id": "3VflBeHCr2tNQmwZwCmcVg",
+        "duration_ms": 218296,
+        "track_number": 5
+      },
+      {
+        "name": "Pill",
+        "id": "3pGJuyCHWOWUSg9NNdZlXU",
+        "duration_ms": 281615,
+        "track_number": 6
+      },
+      {
+        "name": "215634",
+        "id": "4aO74pDpq2SGvJzh041XcN",
+        "duration_ms": 278737,
+        "track_number": 7
+      },
+      {
+        "name": "Appalachian Alchemy",
+        "id": "2bZKOgE6u7RBSqP1o7Ywdz",
+        "duration_ms": 165600,
+        "track_number": 8
+      },
+      {
+        "name": "First Place (feat. Little Big Town)",
+        "id": "5FuVTa6sG9FBw80ddVjVOF",
+        "duration_ms": 188407,
+        "track_number": 9
+      },
+      {
+        "name": "Winning Horse",
+        "id": "4IswYwlwLMDycNvaGwY2I4",
+        "duration_ms": 196488,
+        "track_number": 10
+      },
+      {
+        "name": "Fan On High",
+        "id": "393PSnOeKZf6KDJDu6E0lp",
+        "duration_ms": 146000,
+        "track_number": 11
+      },
+      {
+        "name": "Chicken Shit",
+        "id": "2OV1MIGlpvTxrthei7wkqA",
+        "duration_ms": 176784,
+        "track_number": 12
+      },
+      {
+        "name": "Does Heaven Have A Creek",
+        "id": "5cq3N6gZZOBzXLf2Cev4Wu",
+        "duration_ms": 260000,
+        "track_number": 13
+      }
+    ]
+  }
+]
