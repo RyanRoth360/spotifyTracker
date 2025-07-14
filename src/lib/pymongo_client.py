@@ -40,4 +40,5 @@ class PymongoClient:
         return self.collection.delete_many(query)
     
     def clean_id(self, doc):
-        doc["_id"] = str(doc["_id"])
+        if doc:
+            doc["_id"] = str(doc["_id"])
