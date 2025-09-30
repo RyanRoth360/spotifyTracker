@@ -1,7 +1,7 @@
 from flask import jsonify
 from lib.spotify_helpers import add_album_data
 
-def get_profile_data(mongo_db, username):
+def get_profile_data(username, mongo_db, client, sp):
     try:
         query = {"username": username}
         data = mongo_db.find_one(query)
@@ -9,7 +9,7 @@ def get_profile_data(mongo_db, username):
         if not data:
             return jsonify({"error": "User not found"}), 404
 
-        add_album_data(data)
+        add_album_data(data, sp, client)
 
         ranked, bookmarked, rank_sum = 0, 0, 0
         for album in data.get("albums", []):
@@ -26,6 +26,7 @@ def get_profile_data(mongo_db, username):
         return jsonify(data), 200
 
     except Exception as e:
+        print(e)
         return jsonify({"error": f"Server error: {str(e)}"}), 500
 
 
@@ -39,9 +40,9 @@ def update_flag(mongo_db, payload):
         if not username or not album_id or update not in ["favorite", "bookmarked"]:
             return jsonify({"error": "Invalid request data"}), 400
 
-        result = mongo_db.collection.update_one(
+        result = mongo_db.update_one(
             {"username": username, "albums.albumId": album_id},
-            {"$set": {f"albums.$.{update}": flag}}
+            {f"albums.$.{update}": flag}
         )
 
         if result.modified_count > 0:

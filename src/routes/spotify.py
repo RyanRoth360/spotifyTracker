@@ -1,7 +1,6 @@
 from bson import ObjectId
 from flask import Flask, jsonify, request
 from lib.spotify_helpers import clean_albums_data
-from lib.spotipy_client import get_sp_client
 
 def get_album_data(mongo_db, album_id):
     result = mongo_db.find_one({"_id": ObjectId(album_id)})
@@ -11,13 +10,11 @@ def get_album_data(mongo_db, album_id):
     return result
 
 
-def spotify_search(request):
+def spotify_search(request, sp):
     query = request.args.get("q", "").strip()
     if not query:
         return jsonify([])
 
-    sp = get_sp_client()
-    sp.authorize_user()
     try:
         res = sp.generic_search(query)
         album_items = res.get("albums", {}).get("items", [])
@@ -43,8 +40,6 @@ def spotify_search(request):
 
 
 def get_track_data(album_id):
-    sp = get_sp_client()
-    sp.authorize_user()
     try:
         res = sp.get_track_data(album_id)
         return jsonify(res), 200

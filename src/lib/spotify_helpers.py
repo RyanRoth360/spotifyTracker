@@ -1,4 +1,3 @@
-from lib.spotipy_client import get_sp_client
 
 def clean_albums_data(albums, limit=50):
     cleaned_albums = []
@@ -18,10 +17,9 @@ def clean_albums_data(albums, limit=50):
     return cleaned_albums
 
 
-def add_album_data(data):
+def add_album_data(data, sp, client):
     """Populate album data from ids in profile"""
-    sp = get_sp_client()  
-    
+        
     for album in data.get("albums", []):
-        album.update(sp.get_album_data(album["albumId"]))
+        album.update(client.get_album_data(album["albumId"], sp))
    
