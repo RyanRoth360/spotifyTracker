@@ -1,4 +1,3 @@
-
 def clean_albums_data(albums, limit=50):
     cleaned_albums = []
     for i, album in enumerate(albums):
@@ -9,17 +8,9 @@ def clean_albums_data(albums, limit=50):
             "artists": [artist["name"] for artist in album.get("artists", [])],
             "image": album["images"][0]["url"] if album.get("images") else None,
             "external_url": album.get("external_urls", {}).get("spotify"),
-            "tracks": album.get("tracks", [])
+            "tracks": album.get("tracks", []),
         }
         cleaned_albums.append(cleaned)
         if i == limit:
             break
     return cleaned_albums
-
-
-def add_album_data(data, sp, client):
-    """Populate album data from ids in profile"""
-        
-    for album in data.get("albums", []):
-        album.update(client.get_album_data(album["albumId"], sp))
-   
