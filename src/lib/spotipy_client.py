@@ -111,6 +111,26 @@ class SpotipyClient:
         self._check_authentication()
         return self.sp.artist_albums(artist_id, album_type="album", limit=limit)
 
+    def get_new_releases(self, limit=50):
+        """Get new album releases"""
+        self._check_authentication()
+        return self.sp.new_releases(limit=limit, country="US")
+
+    def get_featured_playlists(self, limit=5):
+        """Get featured playlists to extract popular albums"""
+        self._check_authentication()
+        return self.sp.featured_playlists(limit=limit)
+
+    def get_playlist_tracks(self, playlist_id, limit=20):
+        """Get tracks from a playlist"""
+        self._check_authentication()
+        return self.sp.playlist_tracks(playlist_id, limit=limit)
+
+    def get_recently_played(self, limit=50):
+        """Get user's recently played tracks"""
+        self._check_authentication()
+        return self.sp.current_user_recently_played(limit=limit)
+
     # def search_album(self, album_query):
     #     self._check_authentication()
     #     return self.sp.search(q=album_query, type="album", limit=10)
